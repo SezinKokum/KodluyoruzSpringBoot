@@ -1,4 +1,4 @@
-package utils;
+package com.afordisman.utils;
 
 public class ConfigProgramming {
     //DevTools ==> LiveReload
