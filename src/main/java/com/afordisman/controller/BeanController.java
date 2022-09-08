@@ -18,4 +18,6 @@ public class BeanController {
     public String getBeanDto(){
         return beanConfig.beanDto()+"";
     }
+
+
 }
