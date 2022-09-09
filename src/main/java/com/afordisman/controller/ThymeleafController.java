@@ -35,4 +35,12 @@ public class ThymeleafController {
 
         return "thymeleaf_file/thymeleaf3"; //direkt bu isimdeki thymeleaf.html sayfasına yönlendirdi
     }
+
+    //http://localhost:8080/thymeleaf4
+    @GetMapping("/thymeleaf4")
+    //@ResponseBody //herhangi bir sayfaya yönlendirmeyip direkt gösteriyor
+    public String getThymeleaf4Model(Model model){
+        model.addAttribute( "key_model1","Ben modelden geldim-4");
+        return "thymeleaf4"; //direkt bu isimdeki thymeleaf.html sayfasına yönlendirdi
+    }
 }
