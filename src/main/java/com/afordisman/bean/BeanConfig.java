@@ -1,6 +1,6 @@
 package com.afordisman.bean;
 
-import com.afordisman.dto.BeanDto;
+import com.afordisman.business.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

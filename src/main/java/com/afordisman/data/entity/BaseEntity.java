@@ -1,4 +1,4 @@
-package com.afordisman.entity;
+package com.afordisman.data.entity;
 
 import lombok.Getter;
 import lombok.Setter;

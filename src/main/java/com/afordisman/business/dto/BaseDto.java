@@ -1,4 +1,4 @@
-package com.afordisman.dto;
+package com.afordisman.business.dto;
 
 import java.util.Date;
 

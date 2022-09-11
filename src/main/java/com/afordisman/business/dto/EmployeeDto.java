@@ -1,4 +1,4 @@
-package com.afordisman.dto;
+package com.afordisman.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

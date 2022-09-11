@@ -1,6 +1,6 @@
 package com.afordisman.controller;
 
-import com.afordisman.dto.TeacherDto;
+import com.afordisman.business.dto.TeacherDto;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

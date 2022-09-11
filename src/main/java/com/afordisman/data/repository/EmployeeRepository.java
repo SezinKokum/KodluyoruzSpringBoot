@@ -1,4 +1,4 @@
-package com.afordisman.repository;
+package com.afordisman.data.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
