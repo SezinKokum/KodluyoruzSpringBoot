@@ -1,5 +1,6 @@
 package com.afordisman.data.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
@@ -12,10 +13,16 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 import java.util.Date;
 
+//hibernate jpa
 @MappedSuperclass
+
+//lombok
 @Getter
 @Setter
+
+//Auditing
 @EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value={"created_date,update_date"},allowGetters = true)
 public class BaseEntity {
 
     //column da verdiğin name db deki adıdır, generated value auto increment gibi generate edilmesi içim
