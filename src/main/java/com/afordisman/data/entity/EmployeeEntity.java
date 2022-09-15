@@ -26,11 +26,11 @@ public class EmployeeEntity extends BaseEntity implements Serializable {
     private String lastName;
 
     @Column(name="email_name")
-    private String emailID;
+    private String emailId;
 
-    public EmployeeEntity(String firstName, String lastName, String emailID) {
+    public EmployeeEntity(String firstName, String lastName, String emailId) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.emailID = emailID;
+        this.emailId = emailId;
     }
 }
